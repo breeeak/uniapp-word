@@ -2,7 +2,7 @@
 This is a front framework based on uniapp which can published in iOS、Android、H5 and many mini-programmes.
 
 
-![Index.png](./Demo.png)
+![Index.png](./Demo.jpg)
 
 
 ## Usage
