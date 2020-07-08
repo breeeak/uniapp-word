@@ -1,0 +1,195 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/word/word",//单词页面
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "说词",
+				// #endif 
+				"app-plus": {
+					"titleNView": {
+						"type": "float",
+						"backgroundColor": "rgba(0,0,0,0)",
+						"searchInput": {
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px",
+							"placeholder": "搜索单词",
+							"disabled": true,
+							"placeholderColor": "#606266"
+						},
+						"buttons": [{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe620;",
+								"fontSize": "26",
+								"color": "rgba(250, 67, 106,.7)",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+								
+							},
+							{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe535;",
+								"fontSize": "30",
+								"color": "rgba(250, 67, 106,.7)",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",// 未使用index
+			"style": {
+				"navigationBarTitleText": "说词"
+			}
+		}, {
+			"path": "pages/discover/discover", //发现页面
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "说词",
+				// #endif 
+				"app-plus": {
+					"titleNView": {
+						"type": "float",
+						"backgroundColor": "rgba(0,0,0,0)",
+						"searchInput": {
+							"backgroundColor": "rgba(231, 231, 231,.7)",
+							"borderRadius": "16px",
+							"placeholder": "搜索课程",
+							"disabled": true,
+							"placeholderColor": "#606266"
+						},
+						"buttons": [{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe697;",
+								"fontSize": "26",
+								"color": "rgba(250, 67, 106,.7)",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+								
+							},
+							{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe535;",
+								"fontSize": "30",
+								"color": "rgba(250, 67, 106,.7)",
+								"background": "rgba(0,0,0,0)"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				// #ifdef MP
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "float",
+						"titleColor":"rgba(0,0,0,0)",
+						"backgroundColor": "rgba(0,0,0,0)",
+						"buttons": [{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe697;  ",/* 扫描 */
+								"fontSize": "26",
+								"color": "rgba(250, 67, 106,.7)",
+								"float": "left", 
+								"background": "rgba(0,0,0,0)"
+								
+							},{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe602;",/* 加好友 */
+								"fontSize": "26",
+								"color": "rgba(250, 67, 106,.7)",
+								"float": "left",
+								"background": "rgba(0,0,0,0)"
+								
+							},
+							{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe535;",
+								"fontSize": "30",
+								"color": "rgba(250, 67, 106,.7)",
+								"background": "rgba(0,0,0,0)"
+							},{
+								"fontSrc": "/static/iconfont/iconfont.ttf",
+								"text": "&#xe505;  ",/* 消息 */
+								"fontSize": "27",
+								"color": "rgba(250, 67, 106,.7)",
+								"background": "rgba(0,0,0,0)"
+							}
+							
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+            "path": "pages/public/forget",
+            "style": {
+            	"navigationBarTitleText": "",
+            	"navigationStyle": "custom",
+            	"app-plus": {
+            		"titleNView": false,
+            		"animationType": "slide-in-bottom"
+            	}
+            }
+        } 
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/discover/discover",
+				"iconPath": "static/tab/discover.png",
+				"selectedIconPath": "static/tab/discover-active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/word/word",
+				"iconPath": "static/tab/word.png",
+				"selectedIconPath": "static/tab/word-active.png",
+				"text": "单词"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab/user.png",
+				"selectedIconPath": "static/tab/user-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

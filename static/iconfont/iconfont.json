@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2081964",
+      "name": "课程",
+      "font_class": "kecheng",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2980513",
+      "name": "写",
+      "font_class": "xie",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5730038",
+      "name": "收藏夹",
+      "font_class": "shoucangjia",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "6612742",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "7087544",
+      "name": "扫描",
+      "font_class": "sousuoxiawu-",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "7140101",
+      "name": "计时",
+      "font_class": "jishi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "7556720",
+      "name": "打卡",
+      "font_class": "daqia",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "7657574",
+      "name": "背单词",
+      "font_class": "beidanci",
+      "unicode": "ebd2",
+      "unicode_decimal": 60370
+    },
+    {
+      "icon_id": "8183491",
+      "name": "单词本",
+      "font_class": "danciben",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "8746061",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "8925514",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "9372533",
+      "name": "单词列表",
+      "font_class": "danciliebiao",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "11702406",
+      "name": "搜索--1",
+      "font_class": "soushuo",
+      "unicode": "e509",
+      "unicode_decimal": 58633
+    },
+    {
+      "icon_id": "13133858",
+      "name": "消 息",
+      "font_class": "xiaoxi2",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "13372854",
+      "name": "添加好友",
+      "font_class": "tianjiahaoyou",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13505583",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "13524771",
+      "name": "设 置",
+      "font_class": "shezhi1",
+      "unicode": "e535",
+      "unicode_decimal": 58677
+    }
+  ]
+}
